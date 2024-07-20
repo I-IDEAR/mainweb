@@ -1440,11 +1440,16 @@ input, select, textarea {
 					height: calc(2rem + 1px);
 				}
 
-			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
-			}
+		          	#header .logo {
+                                        width: 100px; /* 设置为你想要的宽度 */
+					height: 100px; /* 设置为你想要的高度 */
+					background-image: url('/image/logo.ico'); /* 替换为你的图片URL */
+					background-size: contain; /* 保持图片比例 */
+					background-position: center; /* 居中显示 */
+					background-repeat: no-repeat; /* 不重复背景图片 */
+					border: solid 1px #ffffff; /* 如果需要，保留边框样式 */
+					border-radius: 100%; /* 如果logo是圆形的，保留这个样式 */
+				}
 
 				#header .logo .icon:before {
 					font-size: 1.75rem;
